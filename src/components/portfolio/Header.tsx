@@ -6,7 +6,7 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 
 const Header = () => {
   const { mode, setMode } = useContext(PortfolioModeContext);
-  const [language, setLanguage] = useState<"en" | "fr">("en");
+  // const [language, setLanguage] = useState<"en" | "fr">("en");
 
   const toggleMode = () => {
     setMode(mode === "design" ? "dev" : "design");
@@ -31,7 +31,7 @@ const Header = () => {
         </nav>
 
         <div className="flex items-center gap-4">
-          <LanguageSelector language={language} setLanguage={setLanguage} />
+          {/* <LanguageSelector language={language} setLanguage={setLanguage} /> */}
           <ModeToggle currentMode={mode} onToggle={toggleMode} />
         </div>
       </div>
