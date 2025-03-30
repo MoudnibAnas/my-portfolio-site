@@ -7,6 +7,8 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 const Header = () => {
   const { mode, setMode } = useContext(PortfolioModeContext);
   // const [language, setLanguage] = useState<"en" | "fr">("en");
+  // const [language, setLanguage] = useState<"en" | "fr">("en");
+
 
   const toggleMode = () => {
     setMode(mode === "design" ? "dev" : "design");
