@@ -13,10 +13,10 @@ const skillsData: Skill[] = [
   // Design Skills
   { name: "Figma", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg", type: "design" },
   { name: "FigJam", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg", type: "design" },
-  { name: "Photoshop", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg", type: "design" },
   { name: "Illustrator", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg", type: "design" },
   { name: "Adobe XD", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-plain.svg", type: "design" },
   { name: "Framer", icon: "https://www.vectorlogo.zone/logos/framer/framer-icon.svg", type: "design" },
+  { name: "Webflow", icon: "https://tse3.mm.bing.net/th/id/OIP.YrERakx8D0aEaG-m_1T_PAHaHa?pid=Api&P=0&h=180", type: "design" },
   { name: "Canva", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg", type: "design" },
   
   // Dev Skills

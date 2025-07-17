@@ -2,6 +2,7 @@
 import { useContext, useState } from "react";
 import { PortfolioModeContext, type PortfolioMode } from "@/App";
 import { Palette, Code, Languages } from "lucide-react";
+import { Link } from 'react-scroll';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 
 const Header = () => {
@@ -26,11 +27,12 @@ const Header = () => {
         </div>
 
         <nav className="hidden md:flex items-center gap-6">
-          <a href="#projects" className="text-sm font-medium hover:opacity-80 transition-opacity">Projects</a>
-          <a href="#skills" className="text-sm font-medium hover:opacity-80 transition-opacity">Skills</a>
-          <a href="#about" className="text-sm font-medium hover:opacity-80 transition-opacity">About</a>
-          <a href="#contact" className="text-sm font-medium hover:opacity-80 transition-opacity">Contact</a>
+          <Link to="projects" smooth={true} duration={500} offset={-50} className="cursor-pointer text-sm font-medium hover:opacity-80 transition-opacity">Projects</Link>
+          <Link to="skills" smooth={true} duration={500} offset={-50} className="cursor-pointer text-sm font-medium hover:opacity-80 transition-opacity">Skills</Link>
+          <Link to="about" smooth={true} duration={500} offset={-50} className="cursor-pointer text-sm font-medium hover:opacity-80 transition-opacity">About</Link>
+          <Link to="contact" smooth={true} duration={500} offset={-50} className="cursor-pointer text-sm font-medium hover:opacity-80 transition-opacity">Contact</Link>
         </nav>
+
 
         <div className="flex items-center gap-4">
           {/* <LanguageSelector language={language} setLanguage={setLanguage} /> */}
